@@ -21,6 +21,24 @@ This is necessary because the file exceeds 100 MB and cannot be pushed directly.
 ### 3. Security and Restrictions
 The project already contains several demo scenes that can be reviewed for implementation examples.
 
-For security:
-- Apply restrictions in **Google APIs and Services**.  
-- Update your Firebase rules. 
+# Firebase WebGL SDK – Full Unity SDK Functionality
+
+The Firebase WebGL SDK provides the same functionality as the Unity SDK, ensuring that your web builds can access all Firebase services just like your Unity projects. 
+This includes:
+
+- **Realtime Database**  
+  Listen to value changes, child added/removed/changed events, and automatically trigger callbacks when data updates occur.
+
+- **Authentication**  
+  Support for all Firebase authentication methods (Email/Password, Google, Facebook, etc.) with proper event callbacks for sign-in, sign-out, and state changes.
+
+- **Cloud Firestore**  
+  Real-time listeners for documents and collections, enabling WebGL builds to respond immediately to data changes, just like in Unity.
+
+- **Cloud Functions & Cloud Messaging**  
+  Trigger server-side functions and receive messages/events in your WebGL application.
+
+- **Storage**  
+  Upload, download, and monitor files in Firebase Storage with progress callbacks.
+
+In short, anything that works with the Firebase Unity SDK—callbacks, events, real-time updates, authentication flows, storage operations, and cloud interactions—is fully supported in WebGL builds. This ensures feature parity and allows seamless cross-platform development without rewriting your Firebase logic.
